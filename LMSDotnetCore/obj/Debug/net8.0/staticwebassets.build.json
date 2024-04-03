@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oEZKlKQBXcFbaDqrJX6s4WMADYXMGzhYqFvTIDV2L5M=",
+  "Source": "LMSDotnetCore",
+  "BasePath": "_content/LMSDotnetCore",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
