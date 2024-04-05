@@ -5,8 +5,8 @@ namespace LMSDotnetCore.Services
 {
     public interface IAuthService
     {
-        Task<bool> ValidateCredentialsAsync(string userName, string password);
-        Task<User?> GetUserByUserNameAsync(string userName);
-        Task<IdentityResult> RegisterUserAsync(User user, string password);
+        Task<string> RegisterUserAsync(User user, string password);
+        Task<string> LoginAsync(string username, string password);
+        void checkJwtValid(string id);
     }
 }

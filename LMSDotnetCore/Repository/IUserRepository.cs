@@ -2,10 +2,14 @@
 
 namespace LMSDotnetCore.Repository
 {
+
     public interface IUserRepository
     {
-        Task<User?> GetUserByUserNameAsync(string userName);
-        Task CreateUserAsync(User user, string password);
-        Task<bool> CheckPasswordAsync(User user, string password);
+        Task<bool> CheckUsernameExistsAsync(string username);
+        Task<bool> CheckEmailExistsAsync(string email);
+        Task<bool> IsValidUserAsync(string username, string password);
+        Task RegisterUserAsync(User user, string password);
+        Task<User?> GetUserByUsernameAsync(string username);
     }
+
 }

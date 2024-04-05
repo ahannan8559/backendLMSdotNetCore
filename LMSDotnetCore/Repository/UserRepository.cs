@@ -1,5 +1,7 @@
-﻿using LMSDotnetCore.Models;
+﻿using LMSDotnetCore.Authentication;
+using LMSDotnetCore.Models;
 using Microsoft.AspNetCore.Identity;
+using System.Data.Entity;
 
 namespace LMSDotnetCore.Repository
 {
@@ -12,19 +14,30 @@ namespace LMSDotnetCore.Repository
             _userManager = userManager;
         }
 
-        public async Task<User?> GetUserByUserNameAsync(string userName)
+        public async Task<bool> CheckUsernameExistsAsync(string username)
         {
-            return await _userManager.FindByNameAsync(userName);
+            return await _userManager.FindByNameAsync(username) != null;
         }
 
-        public async Task CreateUserAsync(User user, string password)
+        public async Task<bool> CheckEmailExistsAsync(string email)
+        {
+            return await _userManager.FindByEmailAsync(email) != null;
+        }
+
+        public async Task<bool> IsValidUserAsync(string username, string password)
+        {
+            var user = await _userManager.FindByNameAsync(username);
+            return user != null && await _userManager.CheckPasswordAsync(user, password);
+        }
+
+        public async Task RegisterUserAsync(User user, string password)
         {
             await _userManager.CreateAsync(user, password);
         }
 
-        public async Task<bool> CheckPasswordAsync(User user, string password)
+        public async Task<User?> GetUserByUsernameAsync(string username)
         {
-            return await _userManager.CheckPasswordAsync(user, password);
+            return await _userManager.FindByNameAsync(username);
         }
     }
 }
