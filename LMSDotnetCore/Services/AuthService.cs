@@ -39,19 +39,20 @@ namespace LMSDotnetCore.Services
             return token;
         }
 
-        public async Task<string> LoginAsync(string username, string password)
+        public string GetJwtToken(User user)
+        {
+            var token = GenerateJwtToken(user!);
+            return token;
+        }
+
+        public async Task<User?> IsValidUser(string username, string password)
         {
             var isValidUser = await _userRepository.IsValidUserAsync(username, password);
             if (!isValidUser)
             {
-                return "Invalid credentials";
+                return null;
             }
-
-            // Generate JWT token for successful login
-            var user = await _userRepository.GetUserByUsernameAsync(username);
-            var token = GenerateJwtToken(user!);
-
-            return token;
+            return await _userRepository.GetUserByUsernameAsync(username);
         }
 
         private string GenerateJwtToken(User user)

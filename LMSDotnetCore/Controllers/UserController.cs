@@ -1,6 +1,5 @@
 ﻿using LMSDotnetCore.Data_Transfer_Objects;
 using LMSDotnetCore.Models;
-using LMSDotnetCore.Repository;
 using LMSDotnetCore.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -46,22 +45,31 @@ namespace LMSDotnetCore.Controllers
         }
 
         [HttpPost("login")]
-        //[AllowAnonymous]
+        [AllowAnonymous]
         public async Task<IActionResult> Login(LoginDto model)
         {
-            var result = await _authService.LoginAsync(model.UserName, model.Password);
-            if (result == "Invalid credentials")
+            var result = await _authService.IsValidUser(model.UserName, model.Password);
+            if (result == null)
             {
                 return BadRequest(result);
             }
-            return Ok(new { Token = result });
+            string jwtToken = _authService.GetJwtToken(result);
+            return Ok(new
+            {
+                User = new
+                {
+                    Username = result.UserName,
+                    Email = result.Email,
+                    FirstName = result.FirstName,
+                    LastName = result.LastName,
+                    roleType = result.RoleType,
+                },
+                Token = jwtToken });
         }
-
         
         [HttpPost("logout")]
         public IActionResult Logout()
         {
-
             return Ok("Logout successful");
         }
 
