@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6/WsmlQqgJ4Ad+ucMyDjszZDycxBX/eObuOqkqTzaZK41d7vc4RtH2noxGOCbDFGIsJ189ZS+JCGR3w6/uSDWw==",
+  "dgSpecHash": "oUd0nic3K1qf48gSxB/YjndvjUxbE5/p1cf1Y5PGLyKZjNomYm0yfDzQKC6UEixQmJ4LIAJhY6ZR038GA5ErCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\LMSDotnetCore.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.entityframeworkcore.design\\8.0.3\\microsoft.entityframeworkcore.design.8.0.3.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.3\\microsoft.entityframeworkcore.relational.8.0.3.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.3\\microsoft.entityframeworkcore.sqlserver.8.0.3.nupkg.sha512",
+    "C:\\Users\\Dev\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.3\\microsoft.entityframeworkcore.tools.8.0.3.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Dev\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

@@ -3,32 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\services\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\services\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\repository\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\repository\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\repository\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\data transfer objects\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\data transfer objects\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\data transfer objects\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\data transfer objects\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|solutionrelative:lmsdotnetcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA16941F-B370-4E44-9DDC-E2DD8570DC3F}|LMSDotnetCore\\LMSDotnetCore.csproj|c:\\users\\dev\\source\\repos\\lmsdotnetcore\\lmsdotnetcore\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,13 +78,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "LMSDotnetCore\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\AuthService.cs",
               "RelativeToolTip": "LMSDotnetCore\\Services\\AuthService.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAUwCkAAAAIAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T20:38:19.176Z",
               "IsPinned": true,
@@ -61,27 +93,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Program.cs",
-              "RelativeDocumentMoniker": "LMSDotnetCore\\Program.cs",
-              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Program.cs",
-              "RelativeToolTip": "LMSDotnetCore\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEUAAAAyAAAA",
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Repository\\IDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\IDocumentRepository.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Repository\\IDocumentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T19:38:27.101Z",
+              "WhenOpened": "2024-04-15T19:46:57.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "LMSDotnetCore\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "LMSDotnetCore\\Repository\\UserRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAA1wCUAAAA3AAAA",
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Services\\DocumentService.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\DocumentService.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Services\\DocumentService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:05:12.337Z",
+              "WhenOpened": "2024-04-15T18:02:18.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Services\\IDocumentService.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\IDocumentService.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Services\\IDocumentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T19:27:16.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAuwEsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:55:05.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Controllers\\DocumentController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAuwCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:18:43.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Repository\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\DocumentRepository.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Repository\\DocumentRepository.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:26:14.79Z",
               "EditorCaption": ""
             },
             {
@@ -92,39 +176,92 @@
               "RelativeDocumentMoniker": "LMSDotnetCore\\Repository\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\IUserRepository.cs",
               "RelativeToolTip": "LMSDotnetCore\\Repository\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T18:02:44.602Z"
+              "WhenOpened": "2024-04-03T18:02:44.602Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\IAuthService.cs",
               "RelativeDocumentMoniker": "LMSDotnetCore\\Services\\IAuthService.cs",
               "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Services\\IAuthService.cs",
               "RelativeToolTip": "LMSDotnetCore\\Services\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T18:16:38.445Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "LMSDotnetCore\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Controllers\\UserController.cs",
-              "RelativeToolTip": "LMSDotnetCore\\Controllers\\UserController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAuwEUAAAAcAAAA",
+              "DocumentIndex": 9,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Data Transfer Objects\\Document.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Data Transfer Objects\\Document.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Data Transfer Objects\\Document.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Data Transfer Objects\\Document.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:55:05.939Z",
+              "WhenOpened": "2024-04-15T16:09:42.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Program.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Program.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Program.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIA1wBgAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T19:38:27.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:05:12.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Data Transfer Objects\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Data Transfer Objects\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Data Transfer Objects\\RegisterDto.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Data Transfer Objects\\RegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:09:53.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "LMSDotnetCore\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "LMSDotnetCore\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T16:01:25.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\appsettings.json",
               "RelativeDocumentMoniker": "LMSDotnetCore\\appsettings.json",
@@ -132,11 +269,12 @@
               "RelativeToolTip": "LMSDotnetCore\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-03T20:21:30.512Z"
+              "WhenOpened": "2024-04-03T20:21:30.512Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Dev\\source\\repos\\LMSDotnetCore\\LMSDotnetCore\\Models\\User.cs",
               "RelativeDocumentMoniker": "LMSDotnetCore\\Models\\User.cs",
@@ -144,7 +282,8 @@
               "RelativeToolTip": "LMSDotnetCore\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T21:01:49.26Z"
+              "WhenOpened": "2024-04-03T21:01:49.26Z",
+              "EditorCaption": ""
             }
           ]
         }

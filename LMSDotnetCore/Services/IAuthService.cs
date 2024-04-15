@@ -1,5 +1,4 @@
 ﻿using LMSDotnetCore.Models;
-using Microsoft.AspNetCore.Identity;
 
 namespace LMSDotnetCore.Services
 {

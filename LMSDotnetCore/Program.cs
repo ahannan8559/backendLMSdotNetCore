@@ -30,10 +30,10 @@ builder.Services.AddSwaggerGen();
 
 // Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-
+builder.Services.AddScoped<IDocumentRepository, DocumentRepository>();
 // Services
 builder.Services.AddScoped<IAuthService, AuthService>();
-
+builder.Services.AddScoped<IDocumentService, DocumentService>();
 // Configure Swagger/OpenAPI
 builder.Services.AddSwaggerGen(c =>
 {
