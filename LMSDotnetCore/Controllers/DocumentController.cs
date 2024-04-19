@@ -25,7 +25,7 @@ namespace LMSDotnetCore.Controllers
             var documents = await _documentService.GetAllDocuments();
             if (documents == null)
             {
-                return BadRequest("No documents exist.....");
+                return BadRequest("No document exists");
             }
 
             return Ok(documents);
@@ -45,3 +45,15 @@ namespace LMSDotnetCore.Controllers
 
     }
 }
+
+
+//try
+//{
+//    await _entityService.UpdateSpecificColumnAsync(id, newColumnValue);
+//    return Ok("Column updated successfully.");
+//}
+//catch (Exception ex)
+//{
+//    // Log the exception
+//    return StatusCode(500, $"An error occurred: {ex.Message}");
+//}

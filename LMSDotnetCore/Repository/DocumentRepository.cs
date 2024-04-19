@@ -13,14 +13,40 @@ namespace LMSDotnetCore.Repository
             _context = context;
         }
 
-        public Task<bool> AddNewDocument(Document document)
+        public async Task<bool> AddNewDocument(Document document)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _context.Documents.Add(document);
+                await _context.SaveChangesAsync();
+                return document.DocumentID != 0;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error 500: "+ex);
+
+    }
         }
 
-        public Task<bool> ApproveArticle(int documentID)
+        public async Task<bool> ApproveArticle(int documentID)
         {
-            throw new NotImplementedException();
+            var entity = await _context.Documents.FindAsync(documentID);
+
+            if (entity != null)
+            {
+                if (entity.isPublished)
+                {
+                    throw new InvalidOperationException($"Entity is already published.");
+                }
+                entity.isPublished = true;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            else
+            {
+                //400
+                throw new InvalidOperationException($"Entity with ID {documentID} not found.");
+            }
         }
 
         public Task<bool> DeleteArticle(int documentID)
@@ -28,9 +54,27 @@ namespace LMSDotnetCore.Repository
             throw new NotImplementedException();
         }
 
-        public Task<bool> DeleteDocument(int id)
+        public async Task<bool> DeleteDocument(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var entity = await _context.Documents.FindAsync(id);
+                if (entity == null)
+                {
+                    return false;
+                }
+
+                _context.Documents.Remove(entity);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+                // Log the exception or handle it as needed
+                //throw new RepositoryException("Error occurred while deleting entity", ex);
+            }
+
         }
 
         public async Task<IEnumerable<Document>> GetAllDocuments()
@@ -43,9 +87,18 @@ namespace LMSDotnetCore.Repository
             return await _context.Documents.FirstOrDefaultAsync<Document>(doc => doc.DocumentID == id);
         }
 
-        public Task<bool> UpdateDocument(Document document)
+        public async Task<bool> UpdateDocument(Document document)
         {
-            throw new NotImplementedException();
+            _context.Entry(document).State = EntityState.Modified;
+            try
+            {
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return false; 
+            }
         }
     }
 }
