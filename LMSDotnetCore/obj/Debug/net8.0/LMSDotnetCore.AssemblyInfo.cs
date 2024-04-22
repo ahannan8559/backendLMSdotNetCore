@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LMSDotnetCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+209dd1606393b529b91b737b7434232596c375a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f29f19b79c8be5b990efb3e929faf9da28fdb9c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LMSDotnetCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LMSDotnetCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

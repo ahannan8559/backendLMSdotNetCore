@@ -11,16 +11,87 @@ namespace LMSDotnetCore.Services
         {
             _documentRepository = documentRepository;
         }
-
         public async Task<IEnumerable<Document>> GetAllDocuments()
         {
-            return (IEnumerable<Document>)await _documentRepository.GetAllDocuments();
+            try
+            {
+                return (IEnumerable<Document>)await _documentRepository.GetAllDocuments();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }         
         }
 
         public async Task<Document?> GetDocumentByID(int documentID)
         {
-            return await _documentRepository.GetDocumentByID(documentID);
+            try
+            {
+                return await _documentRepository.GetDocumentByID(documentID);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+        }
+        public async Task<bool> AddNewDocument(Document document)
+        {
+            try
+            {
+                return await _documentRepository.AddNewDocument(document);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
         }
 
+        public async Task<bool> ApproveArticle(int documentID)
+        {
+            try
+            {
+                return await _documentRepository.ApproveArticle(documentID);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+        }
+
+        public async Task<bool> DeleteArticle(int documentID)
+        {
+            try
+            {
+                return await _documentRepository.DeleteArticle(documentID);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+        }
+
+        public async Task<bool> DeleteDocument(int id)
+        {
+            try
+            {
+                return await _documentRepository.DeleteDocument(id);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+        }
+
+        public async Task<bool> UpdateDocument(Document document)
+        {
+            try
+            {
+                return await _documentRepository.UpdateDocument(document);
+            }
+            catch(Exception ex)
+            {
+                throw new Exception(ex.ToString());
+            }
+        }
     }
 }

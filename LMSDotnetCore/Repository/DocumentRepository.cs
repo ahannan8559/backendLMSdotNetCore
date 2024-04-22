@@ -25,27 +25,34 @@ namespace LMSDotnetCore.Repository
             {
                 throw new Exception("Error 500: "+ex);
 
-    }
+            }
         }
 
         public async Task<bool> ApproveArticle(int documentID)
         {
-            var entity = await _context.Documents.FindAsync(documentID);
+            try
+            {
+                var entity = await _context.Documents.FindAsync(documentID);
 
-            if (entity != null)
-            {
-                if (entity.isPublished)
+                if (entity != null)
                 {
-                    throw new InvalidOperationException($"Entity is already published.");
+                    if (entity.isPublished)
+                    {
+                        throw new InvalidOperationException($"Entity is already published.");
+                    }
+                    entity.isPublished = true;
+                    await _context.SaveChangesAsync();
+                    return true;
                 }
-                entity.isPublished = true;
-                await _context.SaveChangesAsync();
-                return true;
+                else
+                {
+                    //400
+                    throw new InvalidOperationException($"Entity with ID {documentID} not found.");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                //400
-                throw new InvalidOperationException($"Entity with ID {documentID} not found.");
+                throw new Exception("Error 500: " + ex);
             }
         }
 
@@ -61,7 +68,7 @@ namespace LMSDotnetCore.Repository
                 var entity = await _context.Documents.FindAsync(id);
                 if (entity == null)
                 {
-                    return false;
+                    throw new Exception("Document not found.");
                 }
 
                 _context.Documents.Remove(entity);
@@ -70,11 +77,8 @@ namespace LMSDotnetCore.Repository
             }
             catch (Exception ex)
             {
-                return false;
-                // Log the exception or handle it as needed
-                //throw new RepositoryException("Error occurred while deleting entity", ex);
+                throw new Exception("Error 500: " + ex);
             }
-
         }
 
         public async Task<IEnumerable<Document>> GetAllDocuments()
@@ -95,9 +99,9 @@ namespace LMSDotnetCore.Repository
                 await _context.SaveChangesAsync();
                 return true;
             }
-            catch (DbUpdateConcurrencyException)
+            catch (DbUpdateConcurrencyException ex)
             {
-                return false; 
+                throw new Exception("Error 500: " + ex);
             }
         }
     }
